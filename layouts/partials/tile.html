@@ -1,0 +1,15 @@
+{{ "<!-- Header -->" | safeHTML }}
+    <section id="one" class="tiles">
+        {{ range .Site.Params.Tiles.showcase }}
+        <article>
+            <span class="image">
+                <img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt="" />
+            </span>
+            <header class="major">
+                <h3><a href="{{ .url | absURL }}" class="link">{{ .title }}</a></h3>
+                <h4><a href="{{ .url | absURL }}" class="link">{{ .position }}</a></h4>
+                <p>{{ .subtitle }}</p>
+            </header>
+        </article>
+        {{ end }}
+    </section>
