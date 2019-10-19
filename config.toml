@@ -88,28 +88,28 @@ disqusShortname = ""
       title = "Freelance"
       subtitle = "Freelance work has offered me the chance to explore areas of research, content creation, and more that have expanded my knowledge base and professional experience."
       image = "pic01.jpg"
-      url = "blogs/freelance"
+      url = "projects/freelance"
 
     [[params.tiles.showcase]]
       title = "Texas Christian University"
       position = "Marketing and Communications Coordinator"
       subtitle = "The marketing and communications of a university is a large and complicated task, and as the marketing and communications coordinator for the College of Fine Arts at Texas Christian University, I was responsible for managing internal and external marketing, as well as communications, for one of the busiest colleges on the TCU campus. "
       image = "pic02.jpg"
-      url = "blogs/texas_christian_university"
+      url = "projects/texas_christian_university"
 
     [[params.tiles.showcase]]
       title = "Ascend Marketing"
       subtitle = "As a Digital Media Specialist at Ascend Marketing, I was responsible for creating, editing, publishing, and managing social media content for a Fortune 25 client, including paid social media (Facebook and Twitter) development and implementation. "
       position = "Digital Media Specialist"
       image = "pic03.jpg"
-      url = "blogs/ascend_marketing"
+      url = "projects/ascend_marketing"
 
     [[params.tiles.showcase]]
       title = "Heritage Auctions"
       subtitle = "As the Social Media Coordinator for the international auction house Heritage Auctions, my work included creating and managing content for Facebook, Twitter, Instagram, and Pinterest, as well as generating reports on the success of these posts."
       position = "Social Media Coordinator"
       image = "pic04.jpg"
-      url = "blogs/heritage_auctions"
+      url = "projects/heritage_auctions"
 
 # You can make more showcases by copy and pasting the code above
 
@@ -123,12 +123,9 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    title = "About Me"
+    subtitle = """As a social media strategist and content creator with experience across the entire social life-cycle, I pride myself on the ability to deliver engaging and creative content and campaigns. 
+    I have experience with graphic design, social media management, journalism, and communications, as well as the desire to constantly learn more about my various fields. My previous positions have given me a unique take on both business and writing. I believe that my background in music, writing, and social media allows me to bring a fresh perspective to any assignment, whether that be through working with a large business to streamline their communications with their clients, or through communicating directly with my readers through my writing. """
     buttonText = "Get Started"
     url = "blogs"
 
